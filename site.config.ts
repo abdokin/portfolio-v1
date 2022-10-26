@@ -18,7 +18,7 @@ export default siteConfig({
 
   // social usernames (optional)
   twitter: 'abdo_7fth',
-  github: 'abokin',
+  github: 'abdokin',
   linkedin: 'abderrahman-laraich-74b4b423a',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
