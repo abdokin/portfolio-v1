@@ -10,6 +10,7 @@ import { isSearchEnabled, navigationLinks, navigationStyle } from '@/lib/config'
 import { useDarkMode } from '@/lib/use-dark-mode'
 
 import styles from './styles.module.css'
+import Link from 'next/link'
 
 const ToggleThemeButton = () => {
   const [hasMounted, setHasMounted] = React.useState(false)
@@ -56,23 +57,23 @@ export const NotionPageHeader: React.FC<{
 
               if (link.pageId) {
                 return (
-                  <components.PageLink
+                  <Link
                     href={mapPageUrl(link.pageId)}
                     key={index}
                     className={cs(styles.navLink, 'breadcrumb', 'button')}
                   >
                     {link.title}
-                  </components.PageLink>
+                  </Link>
                 )
               } else {
                 return (
-                  <components.Link
+                  <Link
                     href={link.url}
                     key={index}
                     className={cs(styles.navLink, 'breadcrumb', 'button')}
                   >
                     {link.title}
-                  </components.Link>
+                  </Link>
                 )
               }
             })
