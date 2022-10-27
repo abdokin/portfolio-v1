@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Aberrahman ',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  domain: 'http://localhost:3000/',
   author: 'Abderrahman Laraich',
 
   // open graph metadata (optional)
@@ -52,13 +52,6 @@ export default siteConfig({
   // navigationStyle: 'default'
   navigationStyle: 'custom',
   navigationLinks: [
-    {
-      title: 'About',
-      pageId: 'e55586a93b6d41599a2eff0788e78867'
-    },
-    {
-      title: 'Contact',
-      pageId: '9b6ee329d30a4eedb68cca2979a8b916'
-    }
+    
   ]
 })

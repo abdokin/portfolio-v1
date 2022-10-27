@@ -41,3 +41,11 @@ body {
 footer > div.styles_social__ptL3p > a{
   font-size: 1.5rem;
 }
+
+article > div.notion-row{
+  display: none !important;
+}
+
+ article > a.notion-page-link{
+  display: none !important;
+ }
